@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>South Americans Secrets</title>
-
+    <link rel="icon" href="assets/img/logoN.png" type="image/png">
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css">
 
@@ -12,8 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
 </head>
 
 <body>
@@ -29,9 +28,9 @@
                 <div class="slide">
                     <img src="assets/img/Hero/heroMachuPicchu.jpg" alt="Machu Picchu" />
                     <div class="content container">
-                        <span class="smallText">Maravilla del Mundo</span>
+                        <span class="smallText">Wonder of the World</span>
                         <h1>Machu Picchu, Cusco</h1>
-                        <p>Descubre la ciudadela inca perdida entre las nubes.</p>
+                        <h3>Discover the Inca citadel lost among the clouds.</h3>
                         <a href="tours.html" class="btn">Ver Tour</a>
                     </div>
                 </div>
@@ -39,20 +38,20 @@
                 <div class="slide">
                     <img src="assets/img/Hero/huacachina.jpg" alt="Huacachina" />
                     <div class="content container">
-                        <span class="smallText">Oasis en el Desierto</span>
+                        <span class="smallText">Oasis in the Desert</span>
                         <h1>Huacachina, Ica</h1>
-                        <p>Aventura y adrenalina en las dunas más impresionantes.</p>
-                        <a href="tours.html" class="btn">Explorar</a>
+                        <h3>Adventure and adrenaline in the most impressive dunes.</h3>
+                        <a href="tours.html" class="btn">Explore</a>
                     </div>
                 </div>
 
                 <div class="slide">
                     <img src="assets/img/Hero/heroReservaParacas.jpg" alt="Paracas" />
                     <div class="content container">
-                        <span class="smallText">Vida Marina</span>
-                        <h1>Reserva de Paracas</h1>
-                        <p>Navega junto a lobos marinos y pingüinos de Humboldt.</p>
-                        <a href="tours.html" class="btn">Descubrir</a>
+                        <span class="smallText">Marine life</span>
+                        <h1>Paracas Reserve</h1>
+                        <h3>Sail alongside sea lions and Humboldt penguins.</h3>
+                        <a href="tours.html" class="btn">Discover</a>
                     </div>
                 </div>
             </div>
@@ -67,7 +66,7 @@
             <div class="container">
                 <h2 class="section-title">Explore Top Destinations</h2>
                 <p class="section-subtitle">
-                    Lorem ipsum dolor sit amet consectetur. Aenean viverra eu aliquet et phasellus en arcu. Libero volutpat eget aliquam.
+                    Your next unforgettable journey begins here. Choose your destination.
                 </p>
                 <div class="destinations-grid grid">
                     <!-- Generado por JS -->
@@ -99,7 +98,6 @@
             </div>
         </section>
 
-        <!-- REVIEWS -->
         <section class="reviews">
             <div class="overlay">
                 <div class="container">
@@ -108,23 +106,21 @@
                         <div class="reviews-text">
                             <h2>Reviews By Clients</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur. Aenean viverra eu aliquet et phasellus en arcu.
+                                Discover what our travelers say about their experience. Real testimonials of unforgettable adventures.
                             </p>
                         </div>
 
-                        <div class="testimonial-card">
-                            <p class="testimonial-text">
-                                “Lorem ipsum dolor sit amet consectetur...”
-                            </p>
-                            <div class="client-info">
-                                <img class="client-img" src="assets/img/clients/paul.jpg" alt="Foto de Paul Percival">
-                                <div class="client-details">
-                                    <h4>Paul Percival</h4>
-                                    <span>Accountant</span>
+                        <div class="testimonial-slider">
+                            
+                            <button id="prev-testimonial" class="slider-arrow prev" aria-label="Anterior testimonio">&lt;</button>
+                            
+                            <div id="testimonial-card-container">
                                 </div>
-                            </div>
-                        </div>
 
+                            <button id="next-testimonial" class="slider-arrow next" aria-label="Siguiente testimonio">&gt;</button>
+
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -145,7 +141,7 @@
             <div class="container">
                 <h2 class="section-title">Our Tour Guides</h2>
                 <p class="section-subtitle">
-                    Lorem ipsum dolor sit amet consectetur. Aenean viverra eu aliquet et phasellus en arcu.
+                    Your adventure is in the best hands. They will ensure that every moment counts.
                 </p>
 
                 <div class="guides-grid"><!-- JS --></div>
@@ -177,11 +173,11 @@
 
     <!-- SCRIPTS -->
     <script src="assets/js/main.js"></script>
-    <script src="assets/js/tours.js"></script>
     <script src="assets/js/guides.js"></script>
     <script src="assets/js/destinations.js"></script>
     <script src="assets/js/featured.js"></script>
     <script src="assets/js/all-destinations.js"></script>
+    <script src="assets/js/reviews.js"></script>
 
 </body>
 </html>
